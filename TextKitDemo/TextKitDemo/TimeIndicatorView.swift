@@ -50,7 +50,6 @@ class TimeIndicatorView: UIView {
         let width = label.frame.size.width
         let hegith = label.frame.size.height
         let r = sqrt(width * width + hegith * hegith) / 2
-        print(r)
         return r
     }
 
@@ -59,6 +58,7 @@ class TimeIndicatorView: UIView {
         self.backgroundColor = UIColor.clearColor() // 去掉黑色背景
         self.addSubview(label)
         label.numberOfLines = 0
+        label.textColor = UIColor.whiteColor()
     }
 
     private func _updateViews() {

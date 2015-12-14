@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		576198611C1E64CF004D734E /* TimeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576198601C1E64CF004D734E /* TimeIndicatorView.swift */; };
+		576198651C1E98F7004D734E /* lorem.txt in Resources */ = {isa = PBXBuildFile; fileRef = 576198641C1E98F7004D734E /* lorem.txt */; };
+		576198691C1E9E08004D734E /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576198681C1E9E08004D734E /* String+File.swift */; };
 		57BB53231C1A814700AC5E07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB53221C1A814700AC5E07 /* AppDelegate.swift */; };
 		57BB53251C1A814700AC5E07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BB53241C1A814700AC5E07 /* ViewController.swift */; };
 		57BB53281C1A814700AC5E07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57BB53261C1A814700AC5E07 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		576198601C1E64CF004D734E /* TimeIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIndicatorView.swift; sourceTree = "<group>"; };
+		576198641C1E98F7004D734E /* lorem.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lorem.txt; sourceTree = "<group>"; };
+		576198681C1E9E08004D734E /* String+File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+File.swift"; sourceTree = "<group>"; };
 		57BB531F1C1A814700AC5E07 /* TextKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57BB53221C1A814700AC5E07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57BB53241C1A814700AC5E07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 		57BB53211C1A814700AC5E07 /* TextKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				576198641C1E98F7004D734E /* lorem.txt */,
 				57BB53221C1A814700AC5E07 /* AppDelegate.swift */,
 				57BB53241C1A814700AC5E07 /* ViewController.swift */,
 				57BB53261C1A814700AC5E07 /* Main.storyboard */,
@@ -63,6 +68,7 @@
 				57BB532B1C1A814700AC5E07 /* LaunchScreen.storyboard */,
 				57BB532E1C1A814700AC5E07 /* Info.plist */,
 				576198601C1E64CF004D734E /* TimeIndicatorView.swift */,
+				576198681C1E9E08004D734E /* String+File.swift */,
 			);
 			path = TextKitDemo;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				57BB532D1C1A814700AC5E07 /* LaunchScreen.storyboard in Resources */,
 				57BB532A1C1A814700AC5E07 /* Assets.xcassets in Resources */,
+				576198651C1E98F7004D734E /* lorem.txt in Resources */,
 				57BB53281C1A814700AC5E07 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57BB53251C1A814700AC5E07 /* ViewController.swift in Sources */,
+				576198691C1E9E08004D734E /* String+File.swift in Sources */,
 				57BB53231C1A814700AC5E07 /* AppDelegate.swift in Sources */,
 				576198611C1E64CF004D734E /* TimeIndicatorView.swift in Sources */,
 			);
